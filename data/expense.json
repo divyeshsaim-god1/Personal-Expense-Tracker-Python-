@@ -1,0 +1,9 @@
+[
+    {
+        "expense_id": 2,
+        "amount": 250.0,
+        "category": "Shopping",
+        "description": "buy clothes",
+        "date": "2026-12-23"
+    }
+]
