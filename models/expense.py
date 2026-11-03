@@ -26,3 +26,13 @@ class Expense:
             "description":self.description,
             "date":self.date
         }
+
+    @classmethod
+    def from_dict(cls, data):
+        return cls(
+            expense_id=data["expense_id"],
+            amount=data["amount"],
+            category=data["category"],
+            description=data["description"],
+            date=data["date"]
+        )
